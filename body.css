@@ -1,0 +1,19 @@
+.body {
+    display: grid;
+    grid-template-columns: 14% 85%;
+    grid-gap: 1px; 
+}
+.bodyOptional{
+    display: grid;
+    grid-template-columns: 4.5% 95%;
+    grid-gap: 1px; 
+}
+
+.container-1, .container-2 {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+.inv{
+    display: none;
+}
