@@ -1,0 +1,45 @@
+.slide {
+    width: 100%; 
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center; 
+}
+
+.button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    background-color: #464343;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #ccc;
+}
+
+.botoes-navegacao {
+    text-align: center;
+}
+
+.botoes-navegacao button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botoes-navegacao button:hover {
+    background-color: #ccc;
+}
+.block{
+    display: flex;
+    align-items: center;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="slideButtons.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -48,37 +49,22 @@
             <div class="menu-principal">
                 <div class="icons ">
                     <button class="active">
-                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24"
-                            viewBox="0 0 24 24" focusable="false"
-                            style="background-color: rgba(255, 255, 255, 0); width: 24px; height: 100%;">
-                            <g>
-                                <path class="svg-color" d="M4 21V10.08l8-6.96 8 6.96V21h-6v-6h-4v6H4z"></path>
-                            </g>
-                        </svg>
+                        <img src="img/icons/inicio.svg"
+                            style="background-color: rgba(255, 255, 255, 0); width: 24px; height: 100%;" alt="">
                         <span>Início</span>
                     </button>
                 </div>
                 <div class="icons ">
                     <button>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"
-                            focusable="false"
-                            style="background-color: rgba(255, 255, 255, 0);width: 24px; height: 100%;">
-                            <path class="svg-color"
-                                d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z">
-                            </path>
-                        </svg>
+                        <img src="img/icons/shorts.svg"
+                            style="background-color: rgba(255, 255, 255, 0);width: 24px; height: 100%;" alt="">
                         <span>Shorts</span>
                     </button>
                 </div>
                 <div class="icons ">
                     <button>
-                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24"
-                            viewBox="0 0 24 24" width="24" focusable="false"
-                            style="background-color: rgba(255, 255, 255, 0); width: 24px; height: 100%;">
-                            <path class="svg-color"
-                                d="M10 18v-6l5 3-5 3zm7-15H7v1h10V3zm3 3H4v1h16V6zm2 3H2v12h20V9zM3 10h18v10H3V10z">
-                            </path>
-                        </svg>
+                        <img src="img/icons/inscrições.svg"
+                            style="background-color: rgba(255, 255, 255, 0); width: 24px; height: 100%;" alt="">
                         <span>Inscrições</span>
                     </button>
                 </div>
@@ -86,29 +72,118 @@
                 </div>
                 <div class="icons ">
                     <button style="align-items: center;">
-                        <span style="font-weight: bold; font-size: 16px; margin: 0; background-color: rgba(255, 255, 255, 0);">Você</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" width="16"
-                            focusable="false" style="margin-left: 8px; background-color: rgba(255, 255, 255, 0); width: 16px; height: 16px">
-                            <path class="svg-color" d="M4.97 12.65 9.62 8 4.97 3.35l.71-.71L11.03 8l-5.35 5.35-.71-.7z"></path>
-                        </svg>
+                        <span
+                            style="font-weight: bold; font-size: 16px; margin: 0; background-color: rgba(255, 255, 255, 0);">Você</span>
+                        <img src="img/icons/arrow.svg"
+                            style="margin-left: 8px; background-color: rgba(255, 255, 255, 0); width: 16px; height: 16px"
+                            alt="">
                     </button>
                 </div>
                 <div class="icons ">
                     <button>
-                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24"
-                            viewBox="0 0 24 24" width="24" focusable="false"
-                            style="background-color: rgba(255, 255, 255, 0); width: 24px; height: 100%;">
-                            <path class="svg-color"
-                                d="M10 18v-6l5 3-5 3zm7-15H7v1h10V3zm3 3H4v1h16V6zm2 3H2v12h20V9zM3 10h18v10H3V10z">
-                            </path>
-                        </svg>
+                        <img src="img/icons/SeuCanal.svg"
+                            style="background-color: rgba(255, 255, 255, 0); width: 24px; height: 100%;" alt="">
                         <span>Seu canal</span>
                     </button>
+                </div>
+                <div class="icons ">
+                    <button>
+                        <img src="img/icons/historico.svg"
+                            style="background-color: rgba(255, 255, 255, 0); width: 24px; height: 100%;" alt="">
+                        <span>Histórico</span>
+                    </button>
+                </div>
+                <div class="icons ">
+                    <button>
+                        <img src="img/icons/seuVideo.svg"
+                            style="background-color: rgba(255, 255, 255, 0); width: 24px; height: 100%;" alt="">
+                        <span>Seus vídeos</span>
+                    </button>
+                </div>
+                <div class="icons ">
+                    <button>
+                        <img src="img/icons/assistirMaisTarde.svg"
+                            style="background-color: rgba(255, 255, 255, 0); width: 24px; height: 100%;" alt="">
+                        <span>Assistir mais tarde</span>
+                    </button>
+                </div>
+                <div class="icons ">
+                    <button>
+                        <img src="img/icons/arrowBotom.svg"
+                            style="background-color: rgba(255, 255, 255, 0); width: 24px; height: 100%;" alt="">
+                        <span>Mostrar mais</span>
+                    </button>
+                </div>
+                <div class="divs">
+                </div>
+                <div class="tag-menu">
+                    <span style="color: white; font-weight: bold; font-size: 16px; margin-left: 12px;">Inscrições</span>
+                </div>
+                <div class="icons ">
+                    <button>
+                        <img src="img/channels4_profile.jpg"
+                            style="border-radius: 50%; background-color: rgba(255, 255, 255, 0); width: 24px; height: 100%;"
+                            alt="">
+                        <span>EU FICO LOKO</span>
+                    </button>
+                </div>
+                <div class="icons ">
+                    <button>
+                        <img src="img/channels5_profile.jpg"
+                            style="border-radius: 50%; background-color: rgba(255, 255, 255, 0); width: 24px; height: 100%;"
+                            alt="">
+                        <span>3Sskaters</span>
+                    </button>
+                </div>
+                <div class="icons ">
+                    <button>
+                        <img src="img/channels6_profile.jpg"
+                            style="border-radius: 50%; background-color: rgba(255, 255, 255, 0); width: 24px; height: 100%;"
+                            alt="">
+                        <span>AchismosTV</span>
+                    </button>
+                </div>
+                <div class="icons ">
+                    <button>
+                        <img src="img/icons/arrowBotom.svg"
+                            style="background-color: rgba(255, 255, 255, 0); width: 24px; height: 100%;" alt="">
+                        <span>Mostrar mais 4</span>
+                    </button>
+                </div>
+                <div class="divs">
                 </div>
             </div>
         </div>
         <div id="container-optional" class="container-optional inv">optional</div>
-        <div class="container-2">Item 2 (90%)</div>
+        <div class="container-2">
+            <div class="block">
+                <div id="slide" class="slide">
+                    <button class="button">Tudo</button>
+                    <button class="button">Jogos</button>
+                    <button class="button">Musica</button>
+                    <button class="button">Ao vivo</button>
+                    <button class="button">Futebol</button>
+                    <button class="button">Principe Zuko</button>
+                    <button class="button">Counter-Strike: Global Offen...</button>
+                    <button class="button">Counter-Strike 2</button>
+                    <button class="button">Serie de televisão</button>
+                    <button class="button">Filmes</button>
+                    <button class="button ">Tudo</button>
+                    <button class="button">Jogos</button>
+                    <button class="button">Musica</button>
+                    <button class="button">Ao vivo</button>
+                    <button class="button">Futebol</button>
+                    <button class="button">Principe Zuko</button>
+                    <button class="button">Counter-Strike: Global Offen...</button>
+                    <button class="button">Counter-Strike 2</button>
+                    <button class="button">Serie de televisão</button>
+                    <button class="button">Filmes</button>
+                </div>
+                <div class="botoes-navegacao">
+                    <button id="proximo" class="proximo" onclick="proximo()">Próximo</button>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
@@ -131,6 +206,21 @@
             containerOptional.addClass("inv")
         }
 
+    }
+    function proximo() {
+    var slide = $('.slide');
+    var scrollWidth = slide[0].scrollWidth;
+    var outerWidth = slide.outerWidth();
+    var scrollLeft = slide.scrollLeft();
+    slide.animate({ scrollLeft: scrollLeft + 300 }, 'slow', function () {
+        if (scrollWidth - scrollLeft === outerWidth) {
+            console.log("final");
+        }
+    });
+}
+    function anterior() {
+        $('#proximo').show(); 
+        $('.slide').animate({ scrollLeft: '-=300' }, 'slow');
     }
 </script>
 
