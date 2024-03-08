@@ -1,0 +1,86 @@
+*{
+    background-color: #0F0F0F;
+    font-family: Roboto, Arial, sans-serif;
+}
+.svg-color{
+    fill: white;
+}
+.col {
+    background-color: #0F0F0F;
+    float: left; 
+}
+.nav {
+    width: 100%; 
+    background-color: #0F0F0F;
+    overflow: hidden; 
+    margin: 0; 
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+body {
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+}
+.start{
+    margin-left: 25px;
+    padding-top: 5px;
+}
+
+
+.input{
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+.input input{
+    margin-left: 15px;
+    width: 80%;
+    background-color: #0F0F0F;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 5px;
+    border: solid 0.05em rgb(73, 72, 72);
+    color: white;
+    padding-left: 15px;
+    z-index: 1;
+}
+.ionicon{
+    padding-left: 15px;
+    background-color: #272626;
+    padding-right: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid 0.05em rgb(73, 72, 72);
+}
+.mic{
+    margin-left: 16px;
+    border-radius: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+    background-color: #272626;
+}
+.mini-navbar{
+    color: white;
+}
+.aling-end{
+
+    flex: 1 0 0%;
+    
+}
+.mini-navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 5px;
+}
+.profile{
+    width: 31px;
+    margin-left: 23px;
+    margin-right: 50px;
+    border-radius: 50%;
+}
