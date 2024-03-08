@@ -1,6 +1,6 @@
 .body {
     display: grid;
-    grid-template-columns: 14% 85%;
+    grid-template-columns: 17% 81%;
     grid-gap: 1px; 
 }
 .bodyOptional{
@@ -9,11 +9,51 @@
     grid-gap: 1px; 
 }
 
-.container-1, .container-2 {
+.container-2 {
     background-color: #ddd;
-    padding: 20px;
-    text-align: center;
+}
+.container-1{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
 }
 .inv{
     display: none;
+}
+.icons{
+    display: flex;
+    color: white;
+    font-size: 14px;
+    text-decoration: solid;
+    align-items: center;
+}
+.icons button{
+    width: 98%;
+    display: flex;
+    border: none;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 11px;
+}
+.icons button:hover{
+    background-color: #292727;
+}
+.active{
+    background-color: #292727;
+    font-weight: bold;
+}
+.icons span{
+    margin-left: 24px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.menu-principal{
+    display: block;
+}
+.divs{
+    margin-top: 13px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.247);
+    margin-bottom: 13px;
 }
